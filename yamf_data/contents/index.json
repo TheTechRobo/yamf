@@ -1,0 +1,4 @@
+[
+    {"type": "slide", "master": null, "name": "This file does NOT use a template. It is just on its own.", "filename": "thing.svg", "comment": "Since this does not have a file, nor a template, it'd just be blank."},
+    {"type": "spreadsheet", "master": "example.svg", "name": "The names of templates are only used for human friendly purposes", "filename": "example.svg"}
+]
