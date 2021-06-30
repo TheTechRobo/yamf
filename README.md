@@ -1,5 +1,12 @@
 # yamf
 
+## Why?
+I wanted to make my own markup format. One that is easy to understand, that uses well-known formats internally (SVG, JSON, etc), one that could support multiple types of files as one.
+
+Forget having to screenshot your spreadsheet to put it into your Big Presentation, or copy pasting your essay, etc... Have all files in one!
+
+**The reference implementation has not been developed yet. The actual format is not complete either. Watch this space!**
+
 ## Structure
 YAMF files are lrzip files with either lzo or gzip backend. Programs should ideally support both. (lrzip doesn't need you to know the backend compressor on decompression.)
 LZO provides extremely fast compression and decompression, but gzip has a better compression ratio.
